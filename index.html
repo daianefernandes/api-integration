@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="id=edge">
+    
+    <title>Gulliver | Geolocalização</title>
+</head>
+<body>
+    <h1>Exibindo sua localização atual</h1>
+    <hr>
+    <br>
+    <div id="coordinates"></div>
+    <br>
+    <div id="map"></div>
+    <br>
+    <br>
+    <hr>
+    <h1>Teste Conexão API de SMS</h1>
+    <button onclick="connectApi()">Conectar com a API de SMS</button>
+
+    <button onclick="getToken()">Obter token</button>
+    <button onclick="sendSms('+5541999999999', 'Bem-vindo ao Gulliver!')">
+      Enviar SMS
+    </button>
+</body>
+<script src="src/geolocation.js"></script>
+<script src="src/sendSms.js"></script>
+</html>
