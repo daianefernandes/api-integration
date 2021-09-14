@@ -1,0 +1,9 @@
+.content-contact {
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+}
+
+.geolocation {  
+    margin-right: 60px;
+}
